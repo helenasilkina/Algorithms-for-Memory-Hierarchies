@@ -1,15 +1,4 @@
 Lars Arge The Buffer Tree: A Technique for Designing Batched External Data Structures.
 
-In recent years, increasing attention has been given to Input/Outputefficient
-(or I/O-efficient) algorithms. This is due to the fact that communication between
-fast internal memory and slower external memory such as disks is the bottleneck in many
-computations involving massive datasets. The significance of this bottleneck is increasing
-as internal computation gets faster and parallel computing gains popularity.
-
-Much work has been done on designing external versions of data structures designed
-for internal memory. Most of these structures are designed to be used in on-line settings,
-where queries should be answered immediately and within a good worst case number of
-I/Os. As a consequence they often do not take advantage of the available main memory,
-leading to suboptimal performance when they are used in solutions for batched (or offline)
-problems. Therefore several techniques have been developed for solving massive
-batched problems without using external data structures.
+In recent years, increasing attention has been given to Input/Outputefficient (or I/O-efficient) algorithms. This is due to the fact that communication between fast internal memory and slower external memory such as disks is the bottleneck in many computations involving massive datasets. The significance of this bottleneck is increasing as internal computation gets faster and parallel computing gains popularity. 
+Much work has been done on designing external versions of data structures designed for internal memory. Most of these structures are designed to be used in on-line settings, where queries should be answered immediately and within a good worst case number of I/Os. As a consequence they often do not take advantage of the available main memory, leading to suboptimal performance when they are used in solutions for batched (or offline) problems. Therefore several techniques have been developed for solving massive batched problems without using external data structures. 
